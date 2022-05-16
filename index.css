@@ -1,0 +1,357 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    border-bottom: 4px solid rgb(211, 214, 185);
+    
+    
+    
+    
+}
+.navbar{
+    display:flex;
+    padding: 10px;
+    background-color: #4084dd;
+    
+   
+}
+.nav-ul{
+    display: none;
+}
+.hamburger{
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+    margin-left: 12px;    
+}
+.change .bar1{
+    -webkit-transform: rotate(-45deg); translate(-5px,5px);
+    transform: rotate(-45deg) translate(-5px,5px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    -webkit-transform: rotate(45deg);translate(-8px,-8px);
+    transform: rotate(45deg) translate(-8px,-8px);
+}
+.bar1,.bar2,.bar3{
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.interchange{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 40px;
+    /*border: 2px solid blue;*/
+
+    
+
+}
+.product-designer{
+    /*border: 2px solid blue;*/
+    
+    margin-left: 25px;
+    margin-right: 40px;
+    width: 150px;
+    
+}
+#card1{
+    /*border-bottom:1px solid #034192;*/
+    
+    
+}
+#innerbar{
+    display:none;
+    background-color: #9bc3f8;
+    line-height: 30px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    
+    text-decoration: none;
+    
+}
+#innerbar a:hover{
+    color: white;
+    background-color: white;
+    
+
+}
+#innerbar >a{
+    color:white;
+    background-color: white;
+    
+}
+
+#innexbar{
+    display: none;
+    /*border: 2px solid red;*/
+    margin-left: 100px;
+    color: white;
+}
+
+
+.nav-logo{
+    
+    width: 60px;
+    height: 10px;
+    /*border: 2px solid red;*/
+    color: white;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+.designer-name{
+    font-weight: 700;
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 8px;    
+    text-align: center;
+    /*border: 2px solid green;*/
+    font-weight: 800;
+    color: white;
+
+}
+.ui-ux{
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 10px;    
+    text-align: center;
+    /*border: 2px solid green;*/
+    margin-top: 3px;
+    color: white;
+
+}
+
+
+
+
+@media only screen and (min-width: 1024px){
+    .header{
+        border-bottom: 5px solid rgb(211, 214, 185);
+        margin-bottom: 40px;
+        color: white;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1024px;
+           
+           
+           
+    }
+   .nav-logo{      
+    margin-right: 160px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    /*border: 2px solid rgb(73, 18, 237);*/
+    color: white;
+    }
+    .hamburger{
+        display: none;
+
+    }
+      
+   
+       
+    .product-designer{
+        /*border: 2px solid blue;*/
+        align-items: center;
+        
+        
+        
+
+    }
+       
+    .designer-name{
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-size: 24px;    
+        text-align: center;
+        margin-left: 50px;
+        /*border: 2px solid green;*/
+        font-weight: 800;
+        color: white;
+        width: 250px;
+        
+    
+    }
+    .ui-ux{
+    
+        font-family: 'Lato';
+        font-style: normal;
+        font-size: 16px;    
+        text-align: center;
+        /*border: 3px solid rgb(141, 12, 164);*/
+        margin-top: 3px;
+        margin-left: 80px;
+        width: 190px;
+        color: white;
+    
+    }
+       
+    
+   
+    .project,.Resume,.About{
+        color:white;
+        
+    }
+    #innexbar{
+        display:flex;
+        /*border: 2px solid red;*/
+        margin-left: 230px;
+        margin-bottom: 5px;
+        margin-top: 40px;
+        color:white;
+        
+    }
+    .innexlink{
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        
+       
+    }
+    .innexlink>a{
+        color:white;
+        margin-right: 5px;
+    }
+
+       
+    
+   .navbar{
+       display:flex;
+       padding: 5px;
+       color: white;
+   }
+
+}
+@media only screen and (min-width: 1440px){
+    .header{
+        border-bottom: 5px solid rgb(211, 214, 185);
+        margin-bottom: 40px;
+        color: white;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1440px;
+           
+           
+           
+    }
+   .nav-logo{      
+    margin-right: 350px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    /*border: 2px solid rgb(73, 18, 237);*/
+    color: white;
+    }
+    .hamburger{
+        display: none;
+
+    }
+      
+   
+       
+    .product-designer{
+        /*border: 2px solid blue;*/
+        align-items: center;
+        
+        
+        
+
+    }
+       
+    .designer-name{
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-size: 24px;    
+        text-align: center;
+        margin-left: 50px;
+        /*border: 2px solid green;*/
+        font-weight: 800;
+        color: white;
+        width: 250px;
+        
+    
+    }
+    .ui-ux{
+    
+        font-family: 'Lato';
+        font-style: normal;
+        font-size: 16px;    
+        text-align: center;
+        /*border: 3px solid rgb(141, 12, 164);*/
+        margin-top: 3px;
+        margin-left: 80px;
+        width: 190px;
+        color: white;
+    
+    }
+       
+    
+   
+    .project,.Resume,.About{
+        color:white;
+        
+        
+    }
+    #innexbar{
+        display:flex;
+        /*border: 2px solid red;*/
+        margin-left: 330px;
+        margin-bottom: 5px;
+        margin-top: 40px;
+        color:white;
+        
+    }
+    .innexlink{
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        
+       
+    }
+    .innexlink>a{
+        color:white;
+        margin-right: 50px;
+    }
+
+       
+    
+   .navbar{
+       display:flex;
+       padding: 5px;
+       color: white;
+   }
+
+   
+
+
+
+}
